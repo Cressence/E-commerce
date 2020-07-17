@@ -13,7 +13,7 @@ const iconComponents = require('../../../assets/images/tabbar/components.png');
 const tabNavigationData = [
   {
     name: 'Home',
-    component: HomeScreen,
+    component: GridsScreen,
     icon: iconHome,
   },
   {
@@ -23,7 +23,7 @@ const tabNavigationData = [
   },
   {
     name: 'Grids',
-    component: GridsScreen,
+    component: HomeScreen,
     icon: iconGrids,
   },
   {

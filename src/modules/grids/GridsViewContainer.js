@@ -12,7 +12,7 @@ const listData = [
     badge: 'NEW',
     badgeColor: '#3cd39f',
     image:
-      'https://reactnativestarter.com/demo/images/city-sunny-people-street.jpg',
+      'https://m.media-amazon.com/images/I/51lzxAKv8eL.jpg',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const listData = [
     subtitle: 'Office, prom or special parties is all dressed up',
     price: '$29.99',
     priceFrom: true,
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-26549.jpg',
+    image: 'https://cdn3.volusion.com/jmcmq.rexnc/v/vspfiles/photos/sen-eslfw-anya-2.jpg',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const listData = [
     priceFrom: true,
     badge: 'SALE',
     badgeColor: '#ee1f78',
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-30360.jpg',
+    image: 'https://www.evanhair.com/wp-content/uploads/2018/11/Evan-hair-kinky-straight-yaki-hair-wigs-4.jpg',
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const listData = [
     price: '$129.99',
     badge: 'NEW',
     badgeColor: 'green',
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-37839.jpg',
+    image: 'https://www.ebonyline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/l/mlf409-a-min.jpg',
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const listData = [
     subtitle: 'Office, prom or special parties is all dressed up',
     price: '$29.99',
     priceFrom: true,
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-69212.jpg',
+    image: 'https://i.etsystatic.com/17999289/d/il/307ff2/2188374878/il_340x270.2188374878_k37m.jpg',
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const listData = [
     priceFrom: true,
     badge: 'SALE',
     badgeColor: 'red',
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-108061.jpg',
+    image: 'https://cdn.shopify.com/s/files/1/0043/2291/8515/products/Instant-Arewa-Hair-Box-Braid-Wig-Cover.jpg',
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ const listData = [
     price: '$129.99',
     badge: 'NEW',
     badgeColor: '#3cd39f',
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-126371.jpg',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/71s5YZfZoyL._SL1300_.jpg',
   },
   {
     id: 8,
@@ -81,7 +81,7 @@ const listData = [
     subtitle: 'Office, prom or special parties is all dressed up',
     price: '$29.99',
     priceFrom: true,
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-165888.jpg',
+    image: 'https://cdn.shopify.com/s/files/1/0281/0177/1324/products/d0205d1cece9130b0344ed25433fcb80_604x.png',
   },
   {
     id: 9,
@@ -92,7 +92,7 @@ const listData = [
     priceFrom: true,
     badge: 'SALE',
     badgeColor: '#ee1f78',
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-167854.jpg',
+    image: 'https://www.ebonyline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/l/mlf409-a-min.jpg',
   },
   {
     id: 10,
@@ -102,7 +102,7 @@ const listData = [
     price: '$129.99',
     badge: 'NEW',
     badgeColor: 'green',
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-173427.jpg',
+    image: 'https://www.dhresource.com/0x0/f2/albu/g5/M00/A9/2F/rBVaI1i8DaCANV_qAAIAkmC6sgE682.jpg',
   },
   {
     id: 11,
@@ -111,7 +111,7 @@ const listData = [
     subtitle: 'Office, prom or special parties is all dressed up',
     price: '$29.99',
     priceFrom: true,
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-175696.jpg',
+    image: 'https://media.allure.com/photos/5a04abc6d1e7862d7d974bfb/3:4/w_2633,h_3511,c_limit/inexpensive-wigs.jpg',
   },
   {
     id: 12,
@@ -122,7 +122,7 @@ const listData = [
     priceFrom: true,
     badge: 'SALE',
     badgeColor: 'red',
-    image: 'https://reactnativestarter.com/demo/images/pexels-photo-175733.jpg',
+    image: 'https://www.evanhair.com/wp-content/uploads/2018/11/Evan-hair-kinky-straight-yaki-hair-wigs-4.jpg',
   },
 ];
 

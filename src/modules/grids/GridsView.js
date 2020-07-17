@@ -9,11 +9,19 @@ import {
   Image,
   Dimensions,
 } from 'react-native';
+import { Searchbar } from 'react-native-paper';
 import { colors, fonts } from '../../styles';
 
-import { RadioGroup, GridRow } from '../../components';
+import { GridRow } from '../../components';
 
 export default class GridsScreen extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      search: '',
+    }
+  }
+
   _getRenderItemFunction = () =>
     [this.renderRowOne, this.renderRowTwo, this.renderRowThree][
       this.props.tabIndex
@@ -25,6 +33,7 @@ export default class GridsScreen extends React.Component {
       });
     };
   
+    onChangeSearch = query => this.setState({search: query});
 
   renderRowOne = rowData => {
     const cellViews = rowData.item.map(item => (
@@ -122,14 +131,12 @@ export default class GridsScreen extends React.Component {
 
     return (
       <View style={styles.container}>
-        <View style={{ height: 50 }}>
-          <RadioGroup
-            selectedIndex={this.props.tabIndex}
-            items={this.props.tabs}
-            onChange={this.props.setTabIndex}
-            underline
-          />
-        </View>
+        <Searchbar
+          style={styles.searchContainer}
+          placeholder="Search"
+          onChangeText={this.onChangeSearch}
+          value={this.state.search}
+        />
         <FlatList
           keyExtractor={item =>
             item.id
@@ -149,6 +156,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.white,
+  },
+  searchContainer: {
+    borderRadius: 50,
+    marginVertical: 15,
+    width: '90%',
+    marginHorizontal: '5%',
   },
   tabsContainer: {
     alignSelf: 'stretch',
